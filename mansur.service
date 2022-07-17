@@ -2,7 +2,6 @@
 Description=Log into telegram
 
 [Service]
-Type=oneshot
 EnvironmentFile=/etc/mansur/vars.env
 ExecStart=/bin/mansur
 
