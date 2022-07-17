@@ -64,11 +64,6 @@ func main() {
 		warnlst = strings.SplitN(warns, ",", -1)
 	}
 
-	hostname, err := os.Hostname()
-	if err != nil {
-		log.Fatalln("Error getting hostname", err)
-	}
-
 	log.AddHook(
 		telegrus.NewHooker(botToken, chatID).
 			MentionOn(logrus.WarnLevel,
@@ -96,9 +91,9 @@ func main() {
 			idle  = float64(now.Idle-before.Idle) / total * 100.0
 		)
 		if idle <= float64(minIdle) {
-			log.WithField("Hostname", hostname).Warnf("user, sys, idle: %f, %f, %f", user, sys, idle)
+			log.Warnf("user, sys, idle: %f, %f, %f", user, sys, idle)
 		} else {
-			log.Infof("user, sys, idle: %f%, %f%, %f%", user, sys, idle)
+			log.Infof("user, sys, idle: %f, %f, %f", user, sys, idle)
 		}
 		before = now
 	}
