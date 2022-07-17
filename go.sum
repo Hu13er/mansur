@@ -1,5 +1,7 @@
 github.com/Hu13er/telegrus v0.0.0-20220717133839-9e9f75992db7 h1:OnK62gvxkt6KzLT3nZ9NK5icZ5YOW4ukR5WVtZYcDSg=
 github.com/Hu13er/telegrus v0.0.0-20220717133839-9e9f75992db7/go.mod h1:xGR5ihI+kG6zpm5kZCkPQCwCoDnEiqBGcVMsluIFA6U=
+github.com/Hu13er/telegrus v0.0.0-20220717134834-4805202cbe3d h1:jgwdotxqvOONAmMlKmYKCgq5J/Vo2em/5HstYJ3PZp8=
+github.com/Hu13er/telegrus v0.0.0-20220717134834-4805202cbe3d/go.mod h1:xGR5ihI+kG6zpm5kZCkPQCwCoDnEiqBGcVMsluIFA6U=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/mackerelio/go-osstat v0.2.2 h1:7jVyXGXTkQL3+6lDVUDBY+Fpo8VQPfyOkZeXxxsXX4c=
@@ -11,5 +13,7 @@ github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8 h1:OH54vjqzRWmbJ62fjuhxy7AxFFgoHN0/DPc/UrL8cAs=
+golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 h1:0A+M6Uqn+Eje4kHMK80dtF3JCXC4ykBgQG4Fe06QRhQ=
 golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
