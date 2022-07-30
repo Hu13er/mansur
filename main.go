@@ -68,7 +68,7 @@ func main() {
 		telegrus.NewHooker(botToken, chatID).
 			MentionOn(logrus.WarnLevel,
 				warnlst...).
-			SetLevel(logrus.InfoLevel),
+			SetLevel(logrus.WarnLevel),
 	)
 
 	t := time.NewTicker(time.Second * time.Duration(interval))
